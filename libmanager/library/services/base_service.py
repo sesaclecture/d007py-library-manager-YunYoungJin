@@ -11,16 +11,16 @@ class BaseService(ABC):
 
     @abstractmethod
     def add_book(self, book: Book) -> None:
-        ...
+        pass
 
     @abstractmethod
     def remove_book(self, title: str) -> None:
-        ...
+        pass
 
     @abstractmethod
     def list_books(self) -> Iterable[Book]:
-        ...
+        pass
 
     @abstractmethod
     def find_book(self, title: str) -> Book:
-        ...
+        pass
